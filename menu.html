@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/img1.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <img src="images/logo.jpg" alt="Coffee Cove Logo" class="logo">
+            <div class="brand-name">THE COFFEE COVE</div>
+        </div>
+        <nav class="navbar">
+           <h2> <a href="home.html">Home</a></h2>
+           <h2> <a href="menu.html">Menu</a></h2>
+            <h2><a href="about.html">About Us</a></h2>
+           <h2> <a href="contact.html">Contact</a></h2>
+          
+        </nav>
+    </header>
+    
+
+
+    <section id="menu">
+        <h1 class="m"> MENU</h1>
+        <div class="menu-item" data-name="Espresso" data-price="3.00">
+            <h2>Espresso</h2>
+            <h3>$3.00</h3>
+            <img src="images/espresso.jpg" alt="Espresso">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="menu-item" data-name="Cappuccino" data-price="4.50">
+            <h2>Cappuccino</h2>
+            <h3>$4.50</h3>
+            <img src="images/cappuccino.jpg" alt="Cappuccino">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="menu-item" data-name="Latte" data-price="5.00">
+            <h2>Latte</h2>
+            <h3>$5.00</h3>
+            <img src="images/latte.jpg" alt="Latte">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="menu-item" data-name="Mocha" data-price="5.50">
+            <h2>Mocha</h2>
+            <h3>$5.50</h3>
+            <img src="images/mocha.jpg" alt="Mocha">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="menu-item" data-name="Americano" data-price="4.00">
+            <h2>Americano</h2>
+            <h3>$4.00</h3>
+            <img src="images/americano.jpg" alt="Americano">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="menu-item" data-name="Irish Coffee" data-price="6.50">
+            <h2>Irish Coffee</h2>
+            <h3>$6.50</h3>
+            <img src="images/irish-coffee.jpg" alt="Irish Coffee">  
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="menu-item" data-name="Macchiato" data-price="4.50">
+            <h2>Macchiato</h2>
+            <h3>$4.50</h3>
+            <img src="images/macchiato.jpg" alt="Macchiato">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="menu-item" data-name="Flat White" data-price="5.50">
+            <h2>Flat White</h2>
+            <h3>$5.50</h3>
+            <img src="images/flat-white.jpg" alt="Flat White">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="menu-item" data-name="Affogato" data-price="6.00">
+            <h2>Affogato</h2>
+            <h3>$6.00</h3>
+            <img src="images/affogato.jpg" alt="Affogato">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="menu-item" data-name="Frappuccino" data-price="6.50">
+            <h2>Frappuccino</h2>
+            <h3>$6.50</h3>
+            <img src="images/frappuccino.jpg" alt="Frappuccino">
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </section>
+      <div class="box">
+         <h1>Cart</h1>
+         <ul id="cart-list" class="cart"></ul>
+         <h3 class="cart">Total: $<span id="total-cost">0</span></h3>
+         <button>place order</button>
+         <p id="message"></p>
+      </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
